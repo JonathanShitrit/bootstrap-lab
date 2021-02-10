@@ -2,46 +2,79 @@
   box-sizing: border-box;
 }
 
-body {
-  padding: 0 14% 5% 14%;
-}
-
 img {
   width: 100%;
   border-radius: 50%;
 }
 
-header {
+.header {
   background-image: url("../img/milkbg.jpg");
-  width: 100%;
-  background-repeat: no-repeat;
-  text-align: center;
-  height: 350px;
+  background-size: cover;
   background-position: center;
+  height: 400px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
   text-align: center;
 }
+.banner {
+  background-color: hsla(0, 0%, 0%, 0.6);
+  color: white;
+  height: 55%;
+  width: 40%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 4%;
+}
+
+.row-header {
+  margin: 1%;
+}
+
+.new {
+  width: fit-content;
+  padding: 0px 4px;
+  color: white;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.item {
+  margin-bottom: 15px;
+}
 
 .row {
   text-align: center;
+  padding: 1% 5%;
 }
 
 .about-us {
   text-align: center;
+  padding: 1% 5%;
+  background-color: lightgray;
+}
+
+.about-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#cmonster {
+  width: 15%;
+  min-width: 75px;
 }
 
 .about-text {
   text-align: left;
+  width: 80%;
 }
 
 .contact-us {
-  margin-top: 2%;
   text-align: center;
-  /* margin-bottom: 20px; */
-}
-
-footer {
-  /* height: 100px; */
+  background-color: deepskyblue;
+  color: lightgray;
 }

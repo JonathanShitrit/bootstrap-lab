@@ -9,35 +9,44 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
   </head>
   <body>
-    <header>
-      <h1>Cookie Store</h1>
-      <p>Buy our awesome cookies. All proceeds go to charity!</p>
-    </header>
+    <div class="header">
+      <div class="banner">
+        <h1>Cookie Store</h1>
+        <p>Buy our awesome cookies. All proceeds go to charity!</p>
+      </div>
+    </div>
 
-    <h2>The Cookies</h2>
+    <div class="row-header">
+      <h2>The Cookies</h2>
+    </div>
     <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-12 col-sm-12">
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-7 col-sm-7 item">
           <h3>Thin Mint Cookies</h3>
+          <div class="bg-danger new">NEW</div>
           <p>Tasty mint chocolate cookies</p>
           <img src="img/mint.png" />
         </div>
 
-        <div class="col-lg-3 col-md-12 col-sm-12">
+        <div class="col-lg-3 col-md-7 col-sm-7 item">
           <h3>Peanut Butter Cookies</h3>
           <p>Yummy peanut buttery goodness!</p>
           <img src="img/peanut.png" />
         </div>
 
-        <div class="col-lg-3 col-md-12 col-sm-12">
+        <div class="col-lg-3 col-md-7 col-sm-7 item">
           <h3>Short Bread Cookies</h3>
           <p>Santa's favorite classic.</p>
           <img src="img/shortbread.png" />
         </div>
 
-        <div class="col-lg-3 col-md-12 col-sm-12">
+        <div class="col-lg-3 col-md-7 col-sm-7 item">
           <h3>Smore's Cookies</h3>
           <p>Camp fire favorite!</p>
           <img src="img/smores.png" />
@@ -46,27 +55,28 @@
     </div>
 
     <div class="about-us">
-      <h2>About us</h2>
-      <div class="about-text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+      <h2 id="about-h2">About us</h2>
+      <div class="about-div">
+        <img src="./img/cmonster.png" alt="cookie monster" id="cmonster" />
+        <p class="about-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
       </div>
     </div>
 
     <div class="contact-us">
       <h2>Contact us</h2>
-      <div>
+      <p>
         100 Broadway Avenue,<br />
         New York, NY 10001 <br />
         (212) 555-1234
-      </div>
+      </p>
     </div>
-
-    <footer></footer>
   </body>
 </html>
